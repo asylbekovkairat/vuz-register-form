@@ -1,0 +1,24 @@
+@import "./reset.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapperContainer {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  padding: 32px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .wrapperContainer {
+    width: 100% !important;
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapperContainer {
+    /* width: calc(100% - 32px); */
+  }
+}
