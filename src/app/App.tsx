@@ -15,7 +15,7 @@ function App() {
     >
       <div className="flex flex-col items-center m-auto h-[100vh]">
         <Sider />
-        <AntdApp>
+        <AntdApp className="w-full">
           <AppRouter />
         </AntdApp>
       </div>

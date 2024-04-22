@@ -100,7 +100,7 @@ const AuthForm = () => {
 
   const handlePINChange = (value: string) => {
     form.setFieldsValue({
-      PIN: value,
+      pin: value,
     });
   };
 

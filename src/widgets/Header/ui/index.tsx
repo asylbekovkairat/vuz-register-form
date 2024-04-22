@@ -20,7 +20,7 @@ const Header: FC<HeaderProps> = ({ content }) => {
 
   return (
     <>
-      <header className={`flex w-full bg-[#234182]`}>
+      <header className={`flex w-full bg-[#234182] min-w-full`}>
         <section className="wrapperContainer w-full flex justify-between gap-9 items-center">
           <Flex align="flex-start" gap={35}>
             <Link to="/">
